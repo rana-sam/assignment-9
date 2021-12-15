@@ -46,3 +46,21 @@ console.log(m)
 
 var n = Math.max(...num)
 console.log(n);
+
+// a js program to find Second largest number in array
+var array=[2,5,8,0,1,7,26,31,87,11,86]
+var greater=array[0]
+var first=array[0]
+var second
+for(let x=1;x<=array.length;x++){
+    if (greater<array[x]) {
+        if (second<array[x]) {
+            
+            first=array[x]
+        }
+        second=first
+    }
+    greater=array[x]
+
+}
+console.log("Second largest number is ",second);
