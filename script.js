@@ -1,9 +1,10 @@
+//program 1
 // Write a JavaScript program which prints the elements of the following array.
 
 var a = [27,16,83,3,90,45,11,92,34]
 console.log(a);
 
-
+//program 2
 // js program to print all negative Element in array
  
 var nArray = [4, -5, 0, 2, -67, 8, 10, -34 ];
@@ -15,7 +16,7 @@ for(let x=0;x<nArray.length;x++){
 }
 console.log("Negative Element In An Array Is",negative);
 
-
+//program 3
 //Write a js program to find sum of all array elements
 
 var sArray = [1, 2, 3, 4];
@@ -26,6 +27,7 @@ for (let a = 0; a < sArray.length; a++) {
 }
 console.log("Sum of Array Element",sum);
 
+//program 4
 //Write a js program to find maximum and minimum element in an array.
 
 var num = [1,15, 6, 2,0, 3];
@@ -45,6 +47,8 @@ for(let x=0;x<num.length;x++){
 }
 console.log("Minimum Number Is ",min);
 
+
+//program 5
 // a js program to find Second largest number in array
 var array=[89,2,5,8,0,1,7,26,31,87,11,86,90,100]
 var greater=array[0]
@@ -64,6 +68,8 @@ for(let x=1;x<=array.length;x++){
 }
 console.log("Second largest number is ",second);
 
+
+//program 6
 //total number of even and odd number in array
 
 var oddarray=[1,2,3,4,5,6,7,8,9,10]
@@ -81,6 +87,8 @@ for(let x=0;x<oddarray.length;x++){
 console.log("Total number of Even",even);
 console.log("Total number of Odd",odd);
 
+
+//program 7
 //total number of negative element in array
 
 var negArray=[8,0,-1,5,-8,-4,1,2,3,-90]
@@ -91,3 +99,5 @@ for(let x=0;x<negArray.length;x++){
                 }
 }
 console.log("Total Number Of Negative Element In Array Is",negElement);
+
+
