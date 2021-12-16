@@ -181,3 +181,22 @@ else{
     
 }
 }
+
+
+//program 13
+//js program to count total number of duplicate elements in an array.
+var duparray=[1,2,3,4,5,1,2,3,4,5,2]
+var duplication=0
+for(let x=0;x<duparray.length;x++)
+{
+    for(let y=x+1;y<duparray.length;y++)
+    {
+        if (duparray[x]==duparray[y]) {
+            duplication++
+            duparray.splice(y,1)
+            
+        }
+    }
+    
+}
+console.log("total number of duplicate elements in an array is ",duplication);
