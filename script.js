@@ -1,51 +1,49 @@
 // Write a JavaScript program which prints the elements of the following array.
 
-var a = [
-    [1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]
-];
-   
+var a = [27,16,83,3,90,45,11,92,34]
 console.log(a);
 
 
 // js program to print all negative Element in array
  
-var Array = [4, -5, 0, 2, -67, 8, 10, -34 ];
-
-function getNegativeNumbers(array) {
-
-    var negatives = [];
-
-    for (var e = 0; e < array.length; e++) {
-        if (array[e] < 0) {
-            negatives.push(array[e]);
-        }
+var nArray = [4, -5, 0, 2, -67, 8, 10, -34 ];
+var negative=[]
+for(let x=0;x<nArray.length;x++){
+    if (nArray[x]<0) {
+        negative.push(nArray[x])
     }
-    return negatives;
-
 }
-console.log(getNegativeNumbers(Array));
+console.log("Negative Element In An Array Is",negative);
 
 
 //Write a js program to find sum of all array elements
 
-var numbers = [1, 2, 3, 4];
+var sArray = [1, 2, 3, 4];
 let sum = 0;
 
-for (let a = 0; a < numbers.length; a++) {
-    sum += numbers[a];
+for (let a = 0; a < sArray.length; a++) {
+    sum += sArray[a];
 }
-console.log(sum);
+console.log("Sum of Array Element",sum);
 
 //Write a js program to find maximum and minimum element in an array.
 
-var num = [
-    1, 5, 6, 2, 3
-];
-var m = Math.min(...num);
-console.log(m)
+var num = [1,15, 6, 2,0, 3];
 
-var n = Math.max(...num)
-console.log(n);
+var max=num[0]
+for(let x=0;x<num.length;x++){
+    if (max<num[x+1]) {
+        max=num[x+1]
+    }
+}
+console.log("Maximum Number Is ",max);
+var min=num[0]
+for(let x=0;x<num.length;x++){
+    if (min>num[x+1]) {
+        min=num[x+1]
+    }
+}
+console.log("Minimum Number Is ",min);
 
 // a js program to find Second largest number in array
 var array=[89,2,5,8,0,1,7,26,31,87,11,86,90,100]
@@ -65,3 +63,5 @@ for(let x=1;x<=array.length;x++){
 
 }
 console.log("Second largest number is ",second);
+
+/
