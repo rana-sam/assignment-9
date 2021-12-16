@@ -101,3 +101,12 @@ for(let x=0;x<negArray.length;x++){
 console.log("Total Number Of Negative Element In Array Is",negElement);
 
 
+//program 8
+//copy element from one array to an other array
+
+var coarray=[1,0,2,3,4,5,6,7,8,9]
+var copyarray=[]
+for(let x=0;x<coarray.length;x++){
+    copyarray.push(coarray[x])
+}
+console.log("Copy Of Array Is ",copyarray);
