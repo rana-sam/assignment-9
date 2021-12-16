@@ -64,4 +64,20 @@ for(let x=1;x<=array.length;x++){
 }
 console.log("Second largest number is ",second);
 
-/
+//total number of even and odd number in array
+
+var oddarray=[1,2,3,4,5,6,7,8,9,10]
+var odd=0
+var even=0
+for(let x=0;x<oddarray.length;x++){
+    if (oddarray[x] % 2 == 0) {
+        even++
+    }
+    if (oddarray[x]%2!=0) {
+        odd++
+    }
+
+}
+console.log("Total number of Even",even);
+console.log("Total number of Odd",odd);
+
