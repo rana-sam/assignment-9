@@ -200,3 +200,22 @@ for(let x=0;x<duparray.length;x++)
     
 }
 console.log("total number of duplicate elements in an array is ",duplication);
+
+
+//program 14
+//Write a js program to delete all duplicate elements from an array.
+var dupliarray=[1,2,3,4,5,1,2,3,4,5,2,6,7,8,7,9,8,0,0]
+console.log("Before Deleting Duplicate Element ", dupliarray);
+
+for(let x=0;x<dupliarray.length;x++)
+{
+    for(let y=x+1;y<dupliarray.length;y++)
+    {
+        if (dupliarray[x]==dupliarray[y]) {
+            dupliarray.splice(y,1)
+            
+        }
+    }
+    
+}
+console.log("After Deleting Duplicate Element ", dupliarray);
