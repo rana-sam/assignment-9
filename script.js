@@ -221,3 +221,16 @@ for(let x=0;x<dupliarray.length;x++)
 console.log("After Deleting Duplicate Element ", dupliarray);
 
 
+//program 15
+//Write a js program to merge two array to third array.
+
+var merarray1=[1,2,3,4,5]
+var merarray2=[6,7,8,9,10]
+var third=[]
+for(let x=0;x<merarray1.length;x++){
+    third.push(merarray1[x])
+}
+for(let x=0;x<merarray2.length;x++){
+    third.push(merarray2[x])
+}
+console.log("After Merge",third);
