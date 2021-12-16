@@ -244,3 +244,22 @@ for(let x=revarray.length-1;x>=0;x--){
     reverse.push(revarray[x])
 }
 console.log("After Reverse The Array",reverse);
+
+
+//program 17
+//Write a js program to put even and odd elements of array in two separate array.
+var mainarray=[1,2,3,4,5,6,7,8,9,10]
+var evenarray=[]
+var oddarray=[]
+for(let x=0;x<mainarray.length;x++){
+    if(mainarray[x] % 2==0){
+        evenarray.push(mainarray[x])
+    }
+    else{
+        oddarray.push(mainarray[x])
+
+    }
+}
+console.log("Even array ",evenarray);
+console.log("Odd array ",oddarray);
+
