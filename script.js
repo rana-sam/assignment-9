@@ -132,3 +132,22 @@ console.log("After",delarray);
 
 }
 deleteElement(5)
+
+//program 11
+//Find frequency of Array
+
+var frearray=[1,2,3,4,5,1,2,3,4,5,1,2,3,4,2,3]
+for(let x=0;x<frearray.length;x++)
+{
+    var frequency=0
+    for(let y=0;y<frearray.length;y++)
+    {
+        if (frearray[x]==frearray[y]) {
+            frequency++
+            frearray.splice(y,1)
+            
+        }
+    }
+    console.log(frearray[x],"is repeated ",frequency," time");
+    
+}
