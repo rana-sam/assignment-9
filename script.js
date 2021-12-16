@@ -110,3 +110,11 @@ for(let x=0;x<coarray.length;x++){
     copyarray.push(coarray[x])
 }
 console.log("Copy Of Array Is ",copyarray);
+
+//program 9
+//insert an element in array
+
+var inarray=[1,2,3,4,5,6]
+console.log("Before Insert",inarray);
+inarray.push(3)
+console.log("After Insert",inarray);
