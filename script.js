@@ -151,3 +151,33 @@ for(let x=0;x<frearray.length;x++)
     console.log(frearray[x],"is repeated ",frequency," time");
     
 }
+
+//program 12
+// print all unique element in array
+
+
+
+var uniarray=[1,2,3,4,5,1,2,3,4,1,2,3,6,7,8,9]
+if (uniarray==0) {
+    console.log("There Is No Element In Array");
+    
+}
+else{
+    for(let x=0;x<uniarray.length;x++)
+{
+    var unique=0
+    for(let y=0;y<uniarray.length;y++)
+    {
+        if (uniarray[x]==uniarray[y]) {
+            unique++
+            
+            
+        }
+    }
+    
+    if (unique==1) {
+         console.log(uniarray[x]," Is Unique Element In Array");
+    }
+    
+}
+}
