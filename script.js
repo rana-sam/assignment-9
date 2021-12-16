@@ -81,3 +81,13 @@ for(let x=0;x<oddarray.length;x++){
 console.log("Total number of Even",even);
 console.log("Total number of Odd",odd);
 
+//total number of negative element in array
+
+var negArray=[8,0,-1,5,-8,-4,1,2,3,-90]
+var negElement=0
+for(let x=0;x<negArray.length;x++){
+        if (negArray[x]<0) {
+            negElement++ 
+                }
+}
+console.log("Total Number Of Negative Element In Array Is",negElement);
