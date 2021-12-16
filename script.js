@@ -263,3 +263,27 @@ for(let x=0;x<mainarray.length;x++){
 console.log("Even array ",evenarray);
 console.log("Odd array ",oddarray);
 
+
+//program 18
+//Write a js program to search an element in an array.
+
+var serarray=[1,2,3,4,5,6,7,8,2,9]
+
+function search(y) {
+    var incre=0
+    for(let x=0;x<serarray.length;x++)
+    {
+        if (y==serarray[x]) {
+            incre++
+            console.log("Number is found at index number ",x);
+        }
+        
+    }
+    if (incre==0) {
+        
+        console.log("Number is not found in Array");
+    }
+    
+}
+search(5)
+
