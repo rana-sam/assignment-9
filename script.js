@@ -118,3 +118,17 @@ var inarray=[1,2,3,4,5,6]
 console.log("Before Insert",inarray);
 inarray.push(3)
 console.log("After Insert",inarray);
+
+//program 10
+//delete element from specific position
+var delarray=[1,2,3,4,5,6,7,8]
+console.log("before",delarray);
+function deleteElement(x) {
+    
+
+        delarray.splice(x,1)
+    
+console.log("After",delarray);
+
+}
+deleteElement(5)
