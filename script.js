@@ -234,3 +234,13 @@ for(let x=0;x<merarray2.length;x++){
     third.push(merarray2[x])
 }
 console.log("After Merge",third);
+
+//program 16
+//Write a js program to find reverse of an array
+var revarray=[1,2,3,4,5,6,7,8,9]
+console.log("Before Reverse The Array",revarray);
+var reverse=[]
+for(let x=revarray.length-1;x>=0;x--){
+    reverse.push(revarray[x])
+}
+console.log("After Reverse The Array",reverse);
