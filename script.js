@@ -531,3 +531,29 @@ switch (numb1==numb2) {
          console.log(number1," Is Zero");
          break;
  }
+
+
+//  program 29
+// Write a js program to find roots of a quadratic equation using switch case
+
+var A=1
+var B=4
+var C=4
+var disc=B*B - 4*A*C
+switch (disc>0) {
+    case true:
+        var root1=(-B+(B*B-4*A*C)^1/2)/2*A
+        var root2=(-B-(B*B-4*A*C)^1/2)/2*A
+        console.log("Roots Are ",root1," ",root2);
+        break;
+}
+switch (disc<0) {
+    case true:
+        var root1=((-B/2*A)+(-B*B+4*A*C)^1/2)/2*A
+        var root2=((-B/2*A)-(-B*B+4*A*C)^1/2)/2*A
+        console.log("Roots Are ",root1," ",root2);
+        break;
+        case false:
+            var root=-B/2*A
+            console.log("Roots Is ",root);
+}
