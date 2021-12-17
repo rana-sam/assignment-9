@@ -428,3 +428,49 @@ switch (month) {
         console.log("Input Valid Month");
         break;
 }
+
+
+// program 25
+// Write a js program to check whether an alphabet is vowel or consonant using switch case
+var alpha='o'
+if (alpha>='a' || alpha>='A') {
+switch (alpha) {
+    case 'a' :
+        console.log(alpha," Is Vowel");
+        break;
+    case 'e':
+        console.log(alpha," Is Vowel");
+        break;
+    case 'i':
+        console.log(alpha," Is Vowel");
+        break;
+    case 'o':
+        console.log(alpha," Is Vowel");
+        break;
+    case 'u':
+        console.log(alpha," Is Vowel");
+        break;
+    case 'A' :
+        console.log(alpha," Is Vowel");
+        break;
+    case 'E':
+        console.log(alpha," Is Vowel");
+        break;
+    case 'I':
+        console.log(alpha," Is Vowel");
+        break;
+    case 'O':
+        console.log(alpha," Is Vowel");
+        break;
+    case 'U':
+        console.log(alpha," Is Vowel");
+        break;
+
+    default:
+        console.log(alpha," Is Consonent");
+        break;
+}
+}
+else{
+    console.log("Please Input An Alphabat");
+}
