@@ -474,3 +474,25 @@ switch (alpha) {
 else{
     console.log("Please Input An Alphabat");
 }
+
+
+// program 26
+// Write a js program to find maximum between two numbers using switch case.
+
+var numb1=12
+var numb2=120
+switch (numb1>numb2) {
+    case true:
+        console.log(numb1," Is greater");
+        break;
+}
+switch (numb1<numb2) {
+    case true:
+        console.log(numb2," Is greater");
+        break;
+}
+switch (numb1==numb2) {
+    case true:
+        console.log(" Both Are Equal");
+        break;
+}
