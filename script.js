@@ -347,3 +347,37 @@ function rotateRight(a) {
 }
 rotateRight(rigarray)
 rotateRight(rigarray)
+
+
+// program 23
+// Write a js program to print day of week name using switch case.
+let day=2
+// switch(new Date().getDay())      to get current day
+switch (day)
+ {
+    case 0:
+        console.log("Today Is Sunday");
+        break;
+    case 1:
+        console.log("Today Is Monday");
+        break;
+    case 2:
+        console.log("Today Is Tuesday");
+        break;
+    case 3:
+        console.log("Today Is Wednesday");
+        break;
+    case 4:
+        console.log("Today Is Thursday");
+        break;
+    case 5:
+        console.log("Today Is Friday");
+        break;
+    case 6:
+        console.log("Today Is Saturday");
+        break;
+
+    default:
+        console.log("Input Valid number from 1-7");
+        break;
+}
