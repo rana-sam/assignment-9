@@ -249,50 +249,70 @@ search(5);
 
 //Ascending Order
 function ascend() {
-    var sorarray = [2, 1,37,212,0,54,65,34,432];
+  var sorarray = [2, 1, 37, 212, 0, 54, 65, 34, 432];
   var ascending = [];
- var z=sorarray.length
+  var z = sorarray.length;
   for (let y = 0; y < z; y++) {
-      var min = sorarray[0];
+    var min = sorarray[0];
     for (let x = 1; x < sorarray.length; x++) {
       if (sorarray[x] < min) {
         min = sorarray[x];
+      }
     }
-}
-for (let a = 0; a < sorarray.length; a++) {
-    if (min == sorarray[a]) {
-        
+    for (let a = 0; a < sorarray.length; a++) {
+      if (min == sorarray[a]) {
         sorarray.splice(a, 1);
+      }
     }
-}
-ascending.push(min);
-}
-console.log(ascending);
+    ascending.push(min);
+  }
+  console.log("In Ascending Order",ascending);
 }
 
 //Decending Order
 function decend() {
-    var sorarray = [2,0, 1,37,212,54,65,34,432];
-    var decending = [];
-   var z=sorarray.length
-    for (let y = 0; y < z; y++) {
-        var max = sorarray[0];
-      for (let x = 1; x < sorarray.length; x++) {
-        if (sorarray[x] > max) {
-          max = sorarray[x];
+  var sorarray = [2, 0, 1, 37, 212, 54, 65, 34, 432];
+  var decending = [];
+  var z = sorarray.length;
+  for (let y = 0; y < z; y++) {
+    var max = sorarray[0];
+    for (let x = 1; x < sorarray.length; x++) {
+      if (sorarray[x] > max) {
+        max = sorarray[x];
       }
-  }
-  for (let a = 0; a < sorarray.length; a++) {
+    }
+    for (let a = 0; a < sorarray.length; a++) {
       if (max == sorarray[a]) {
-          
-          sorarray.splice(a, 1);
+        sorarray.splice(a, 1);
       }
+    }
+    decending.push(max);
   }
-  decending.push(max);
-  }
-  console.log(decending);
-  }
-
+  console.log("In Decending Order",decending);
+}
 
 ascend();
-decend()
+decend();
+
+//program 20
+//Write a js program to sort even and odd elements of array separately.
+function sortEvenOdd() {
+    
+    var mainarray = [1, 12, 5, 14, 3, 6, 7, 8, 9, 10];
+    var even = [];
+    var odd = [];
+    for (let x = 0; x < mainarray.length; x++) {
+      if (mainarray[x] % 2 == 0) {
+        even.push(mainarray[x]);
+      } else {
+        odd.push(mainarray[x]);
+      }
+    }
+    even.sort(function(a, b) {return a - b;});
+    odd.sort(function(a, b) {return a - b;});
+    mainarray=even.concat(odd)
+    console.log("Sorted Even And Odd Number ",mainarray);
+}
+sortEvenOdd()
+
+
