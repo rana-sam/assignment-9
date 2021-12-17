@@ -381,3 +381,50 @@ switch (day)
         console.log("Input Valid number from 1-7");
         break;
 }
+
+
+// program 24
+// Write a js program print total number of days in a month using switch case.
+ var month=11
+switch (month) {
+    case 1:
+        console.log("There Is 31 Days In This Month");
+        break;
+    case 2:
+        console.log("There Is 28 Days In This Month");
+        break;
+    case 3:
+        console.log("There Is 31 Days In This Month");
+        break;
+    case 4:
+        console.log("There Is 30 Days In This Month");
+        break;
+    case 5:
+        console.log("There Is 31 Days In This Month");
+        break;
+    case 6:
+        console.log("There Is 30 Days In This Month");
+        break;
+    case 7:
+        console.log("There Is 30 Days In This Month");
+        break;
+    case 8:
+        console.log("There Is 31 Days In This Month");
+        break;
+    case 9:
+        console.log("There Is 30 Days In This Month");
+        break;
+    case 10:
+        console.log("There Is 31 Days In This Month");
+        break;
+    case 11:
+        console.log("There Is 30 Days In This Month");
+        break;
+    case 12:
+        console.log("There Is 31 Days In This Month");
+        break;
+
+    default:
+        console.log("Input Valid Month");
+        break;
+}
