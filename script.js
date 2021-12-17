@@ -510,3 +510,24 @@ switch (numb1==numb2) {
          console.log(numbe," Is Odd");
          break;
  }
+
+
+
+//  program 28
+// Write a js program to check whether a number is positive, negative or zero using switch case.
+ var number1=8
+ switch (number1>0) {
+     case true:
+         console.log(number1," Is Positive");
+         break;
+ }
+ switch (number1<0) {
+     case true:
+         console.log(number1," Is Negative");
+         break;
+ }
+ switch (number1==0) {
+     case true:
+         console.log(number1," Is Zero");
+         break;
+ }
