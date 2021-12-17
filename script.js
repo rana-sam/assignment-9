@@ -316,3 +316,18 @@ function sortEvenOdd() {
 sortEvenOdd()
 
 
+// program 21
+// Write a js program to left rotate an array.
+var rotarray=[1,2,3,4,5,6]
+function rotate(a) {
+    var length=a.length
+    var rotat=a[0]
+    for(let x=0;x<a.length;x++){
+        rotarray[x]=a[x+1]
+    }
+    a[length-1]=rotat
+    console.log("After Left Rotation",a);
+    
+}
+rotate(rotarray)
+rotate(rotarray)
