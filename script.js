@@ -496,3 +496,17 @@ switch (numb1==numb2) {
         console.log(" Both Are Equal");
         break;
 }
+
+
+// program 27
+// Write a js program to check whether a number is even or odd using switch case.
+ var numbe=11
+ switch (numbe%2==0) {
+     case true:
+         console.log(numbe," Is Even");
+         break;
+ 
+     default:
+         console.log(numbe," Is Odd");
+         break;
+ }
